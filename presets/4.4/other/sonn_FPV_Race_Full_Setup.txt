@@ -26,10 +26,11 @@ beacon RX_SET
 map TAER1234
 
 # aux
-aux 0 0 0 1650 2100 0 0
-aux 1 1 1 1700 2100 0 0
-aux 2 13 3 1700 2100 0 0
-aux 3 35 2 1700 2100 0 0
+#$ INCLUDE: presets/4.4/modes/sonnFPV_Race_Modes.txt
+
+# rates
+#$ INCLUDE: presets/4.4/rates/SonnFPV_Race.txt
+
 
 # vtxtable
 vtxtable bands 5
