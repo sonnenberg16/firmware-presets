@@ -85,3 +85,60 @@ set osd_canvas_height = 13
 set vcd_video_system = NTSC
 
 set craft_name = sonnFPV
+
+#$ OPTION BEGIN (UNCHECKED): karate race
+    #$ INCLUDE_WARNING: misc/warnings/en/rpm_filters.txt
+    #$ INCLUDE: presets/4.4/tune/defaults.txt
+    #$ INCLUDE: presets/4.3/filters/defaults.txt
+
+    # -- Gyro lowpass filters --
+    set gyro_lpf1_static_hz = 0
+    set gyro_lpf1_dyn_min_hz = 500
+    set gyro_lpf1_dyn_max_hz = 1000
+    set simplified_gyro_filter = OFF
+
+    # -- Gyro Dynamic Notches --
+    set dyn_notch_count = 2
+    set dyn_notch_q = 450
+    set dyn_notch_min_hz = 125
+    set dyn_notch_max_hz = 650
+
+    # -- Dterm filtering --
+    set dterm_lpf1_dyn_expo = 7
+
+    # -- RPM filtering --
+    set dshot_bidir = ON
+    set rpm_filter_fade_range_hz = 100
+
+    # -- Misc --
+    set yaw_spin_recovery = AUTO
+    set thrust_linear = 0
+    set throttle_boost = 2
+
+    # -- iTerm  --
+    set iterm_relax_cutoff = 20
+
+    # -- PIDsum limits --
+    set iterm_limit = 500
+    set pidsum_limit_yaw = 1000
+
+
+    # -- PID values --
+    set simplified_pids_mode = RP
+    set simplified_i_gain = 120
+    set simplified_d_gain = 70
+    set simplified_pi_gain = 85
+    set simplified_dmax_gain = 200
+    set simplified_feedforward_gain = 105
+    set simplified_pitch_pi_gain = 105
+    simplified_tuning apply
+    
+    
+    # -- Feedforward --
+    set feedforward_max_rate_limit = 100
+
+    # -- TPA --
+    set tpa_rate = 70
+    set tpa_breakpoint = 1250
+
+#$ OPTION END
