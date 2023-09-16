@@ -1,0 +1,23 @@
+#$ TITLE: SonnFPV Race Modes
+#$ FIRMWARE_VERSION: 4.3
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: RATES
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: sonn, sonnfpv, mode, race
+#$ AUTHOR: SonnFPV (Shaya Sonnenberg)
+#$ DESCRIPTION: SonnFPV Race Modes
+#$ DESCRIPTION:
+#$ DESCRIPTION: 
+#$ DESCRIPTION: -----------
+#$ DESCRIPTION: 
+#$ DESCRIPTION: 
+#$ DESCRIPTION: -----------
+#$ WARNING: Before applying this preset, REMEMBER this will overwrite the currently set modes
+#$ DISCUSSION: https://github.com/betaflight/firmware-presets/pull/375
+
+#$ INCLUDE: presets/4.3/modes/defaults.txt
+
+aux 0 0 0 1650 2100 0 0
+aux 1 1 1 1700 2100 0 0
+aux 2 13 3 1700 2100 0 0
+aux 3 35 2 1700 2100 0 0

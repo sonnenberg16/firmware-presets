@@ -3,9 +3,9 @@
 #$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: RATES
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: sonn, sonnfpv, rates, race
+#$ KEYWORDS: sonn, sonnfpv, osd, race
 #$ AUTHOR: SonnFPV (Shaya Sonnenberg)
-#$ DESCRIPTION: SonnFPV Race Rates
+#$ DESCRIPTION: SonnFPV Race OSD
 #$ DESCRIPTION:
 #$ DESCRIPTION: 
 #$ DESCRIPTION: -----------

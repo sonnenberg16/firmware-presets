@@ -3689,6 +3689,25 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/4.4/modes/sonnFPV_Race_Modes.txt",
+      "hash": "b8a68a810f64035d876a926fd0181d79a5cf39e5d923aa9a1d189cbd71df475d",
+      "title": "SonnFPV Race Modes",
+      "firmware_version": [
+        "4.3",
+        "4.4"
+      ],
+      "category": "RATES",
+      "status": "COMMUNITY",
+      "keywords": [
+        "sonn",
+        "sonnfpv",
+        "mode",
+        "race"
+      ],
+      "author": "SonnFPV (Shaya Sonnenberg)",
+      "priority": 10000
+    },
+    {
       "fullPath": "presets/4.4/osd/defaults.txt",
       "hash": "d594f4691e29d05efc4b37995b2f218fbe31f930157c3499755753214fa87254",
       "title": "Default 4.4 OSD settings",
@@ -3724,7 +3743,7 @@
     },
     {
       "fullPath": "presets/4.4/osd/SonnFPV_Race_OSD.txt",
-      "hash": "e6d07e6cc301c574227f4f3b906439df3004e0ccc54ce5ccd744b4fd55350c34",
+      "hash": "bb2a7e1033de3eb09a06720c5ffc91672e41c48b1007d38ba78a9f7de7bf0f9d",
       "title": "SonnFPV Race OSD",
       "firmware_version": [
         "4.3",
@@ -3735,7 +3754,7 @@
       "keywords": [
         "sonn",
         "sonnfpv",
-        "rates",
+        "osd",
         "race"
       ],
       "author": "SonnFPV (Shaya Sonnenberg)",
