@@ -3690,7 +3690,7 @@
     },
     {
       "fullPath": "presets/4.4/modes/sonnFPV_Race_Modes.txt",
-      "hash": "b8a68a810f64035d876a926fd0181d79a5cf39e5d923aa9a1d189cbd71df475d",
+      "hash": "74d924fd4819af0d1364b67d4f9f4c29524e2df67de91e3cb9fa45c7585cac7c",
       "title": "SonnFPV Race Modes",
       "firmware_version": [
         "4.3",
@@ -3759,6 +3759,22 @@
       ],
       "author": "SonnFPV (Shaya Sonnenberg)",
       "priority": 10000
+    },
+    {
+      "fullPath": "presets/4.4/other/sonn_FPV_Race_Full_Setup.txt",
+      "hash": "29f974b89def618ad90cbe1471e980063ddb2ffd8a195a2de9ab76a36ee703bd",
+      "title": "SonnFPV Race Full Setup",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "sonn",
+        "sonnfpv"
+      ],
+      "author": "SonnFPV (Shaya Sonnenberg)",
+      "priority": 0
     },
     {
       "fullPath": "presets/4.4/other/Tehllama_5in_Race_Multivoltage.txt",

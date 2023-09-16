@@ -12,7 +12,7 @@
 #$ DESCRIPTION: 
 #$ DESCRIPTION: 
 #$ DESCRIPTION: -----------
-#$ WARNING: Before applying this preset, REMEMBER this will overwrite the currently set modes
+#$ WARNING: Before applying this preset, REMEMBER this will overwrite the currently set modes.. also, turtle mode wont be set inless dshot_bidir is set
 #$ DISCUSSION: https://github.com/betaflight/firmware-presets/pull/375
 
 #$ INCLUDE: presets/4.3/modes/defaults.txt

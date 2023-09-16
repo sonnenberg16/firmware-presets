@@ -1,0 +1,86 @@
+#$ TITLE: SonnFPV Race Full Setup
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: OTHER
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: sonn, sonnfpv
+#$ AUTHOR: SonnFPV (Shaya Sonnenberg)
+#$ DESCRIPTION: SonnFPV Race Full Setup
+#$ DESCRIPTION:
+#$ DESCRIPTION: 
+#$ DESCRIPTION: -----------
+#$ DESCRIPTION: 
+#$ DESCRIPTION: 
+#$ DESCRIPTION: -----------
+#$ WARNING: Before applying this preset, REMEMBER this will overwrite all settings, best to flash clean, then apply this preset
+#$ DISCUSSION: https://github.com/betaflight/firmware-presets/pull/375
+
+# serial
+serial 0 64 115200 57600 0 115200
+serial 4 2048 115200 57600 0 115200
+
+# beacon
+beacon RX_LOST
+beacon RX_SET
+
+# map
+map TAER1234
+
+# aux
+aux 0 0 0 1650 2100 0 0
+aux 1 1 1 1700 2100 0 0
+aux 2 13 3 1700 2100 0 0
+aux 3 35 2 1700 2100 0 0
+
+# vtxtable
+vtxtable bands 5
+vtxtable channels 8
+vtxtable band 1 BOSCAM_A A FACTORY 5865 5845 5825 5805 5785 5765 5745 5725
+vtxtable band 2 BOSCAM_B B FACTORY 5733 5752 5771 5790 5809 5828 5847 5866
+vtxtable band 3 BOSCAM_E E FACTORY 5705 5685 5665 5645 5885 5905 5925 5945
+vtxtable band 4 FATSHARK F FACTORY 5740 5760 5780 5800 5820 5840 5860 5880
+vtxtable band 5 RACEBAND R FACTORY 5658 5695 5732 5769 5806 5843 5880 5917
+vtxtable powerlevels 2
+vtxtable powervalues 0 1
+vtxtable powerlabels 25 50
+
+feature RX_SERIAL
+set serialrx_provider = CRSF
+
+#$ INCLUDE: presets/4.3/rc_link/generic/500hz_race.txt
+
+set dshot_bidir = ON
+set motor_pwm_protocol = DSHOT600
+set beeper_dshot_beacon_tone = 3
+set yaw_motors_reversed = ON
+
+set small_angle = 180
+
+set debug_mode = GYRO_SCALED
+
+set osd_tim1 = 2563
+set osd_link_quality_pos = 2070
+set osd_rssi_dbm_pos = 2102
+set osd_tim_1_pos = 6539
+set osd_throttle_pos = 6529
+set osd_vtx_channel_pos = 2049
+set osd_current_pos = 2390
+set osd_mah_drawn_pos = 2424
+set osd_craft_name_pos = 6187
+set osd_gps_speed_pos = 399
+set osd_gps_lon_pos = 385
+set osd_gps_lat_pos = 385
+set osd_gps_sats_pos = 408
+set osd_home_dir_pos = 15
+set osd_home_dist_pos = 392
+set osd_pid_roll_pos = 385
+set osd_pid_pitch_pos = 353
+set osd_pid_yaw_pos = 385
+set osd_warnings_pos = 14633
+set osd_avg_cell_voltage_pos = 6551
+set osd_flip_arrow_pos = 6255
+set osd_profile = 2
+set osd_canvas_width = 30
+set osd_canvas_height = 13
+set vcd_video_system = NTSC
+
+set craft_name = sonnFPV
