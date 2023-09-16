@@ -1,0 +1,44 @@
+#$ TITLE: SonnFPV Race OSD
+#$ FIRMWARE_VERSION: 4.3
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: RATES
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: sonn, sonnfpv, rates, race
+#$ AUTHOR: SonnFPV (Shaya Sonnenberg)
+#$ DESCRIPTION: SonnFPV Race Rates
+#$ DESCRIPTION:
+#$ DESCRIPTION: 
+#$ DESCRIPTION: -----------
+#$ DESCRIPTION: 
+#$ DESCRIPTION: 
+#$ DESCRIPTION: -----------
+#$ WARNING: Before applying this preset, REMEMBER this will overwrite the currently selected rateprofile 
+#$ DISCUSSION: https://github.com/betaflight/firmware-presets/pull/375
+
+#$ INCLUDE: presets/4.4/osd/defaults.txt
+
+set osd_tim1 = 2563
+set osd_link_quality_pos = 2070
+set osd_rssi_dbm_pos = 2102
+set osd_tim_1_pos = 6539
+set osd_throttle_pos = 6529
+set osd_vtx_channel_pos = 2049
+set osd_current_pos = 2390
+set osd_mah_drawn_pos = 2424
+set osd_craft_name_pos = 6187
+set osd_gps_speed_pos = 399
+set osd_gps_lon_pos = 385
+set osd_gps_lat_pos = 385
+set osd_gps_sats_pos = 408
+set osd_home_dir_pos = 15
+set osd_home_dist_pos = 392
+set osd_pid_roll_pos = 385
+set osd_pid_pitch_pos = 353
+set osd_pid_yaw_pos = 385
+set osd_warnings_pos = 14633
+set osd_avg_cell_voltage_pos = 6551
+set osd_flip_arrow_pos = 6255
+set osd_profile = 2
+set osd_canvas_width = 30
+set osd_canvas_height = 13
+set vcd_video_system = NTSC

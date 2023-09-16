@@ -3723,6 +3723,25 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/4.4/osd/SonnFPV_Race_OSD.txt",
+      "hash": "fb908de6cdea1d8843ef00b42105970ce77ef503b425d6b03f4b88c3ac6ce691",
+      "title": "SonnFPV Race OSD",
+      "firmware_version": [
+        "4.3",
+        "4.4"
+      ],
+      "category": "RATES",
+      "status": "COMMUNITY",
+      "keywords": [
+        "sonn",
+        "sonnfpv",
+        "rates",
+        "race"
+      ],
+      "author": "SonnFPV (Shaya Sonnenberg)",
+      "priority": 10000
+    },
+    {
       "fullPath": "presets/4.4/other/Tehllama_5in_Race_Multivoltage.txt",
       "hash": "69196f1b328ee290fb8293affa6dd96677d14512e1782112c4cb5af98f43e855",
       "title": "Tehllama 5\" Race Multivoltage",
@@ -3825,7 +3844,7 @@
     },
     {
       "fullPath": "presets/4.4/rates/SonnFPV_Race.txt",
-      "hash": "bdc8382fc1518d76ce45866e75c1a4834bae42955768159be5167e7b6e2bb690",
+      "hash": "48efc2286e751200801b4b73b1148d0f8f32b6e760598e04ca2a6ae6181cc13a",
       "title": "SonnFPV Race Rates",
       "firmware_version": [
         "4.3",
