@@ -3690,13 +3690,13 @@
     },
     {
       "fullPath": "presets/4.4/modes/sonnFPV_Race_Modes.txt",
-      "hash": "74d924fd4819af0d1364b67d4f9f4c29524e2df67de91e3cb9fa45c7585cac7c",
+      "hash": "9f0d76d8cc2097c89cba577b679595004556e1d61dd5d60b940ecddfb5b3b0e7",
       "title": "SonnFPV Race Modes",
       "firmware_version": [
         "4.3",
         "4.4"
       ],
-      "category": "RATES",
+      "category": "MODES",
       "status": "COMMUNITY",
       "keywords": [
         "sonn",
@@ -3705,7 +3705,7 @@
         "race"
       ],
       "author": "SonnFPV (Shaya Sonnenberg)",
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/4.4/osd/defaults.txt",
@@ -3743,13 +3743,13 @@
     },
     {
       "fullPath": "presets/4.4/osd/SonnFPV_Race_OSD.txt",
-      "hash": "bb2a7e1033de3eb09a06720c5ffc91672e41c48b1007d38ba78a9f7de7bf0f9d",
+      "hash": "8e57a57e975ef728207981b4b39443f8876f9065db3eeea9064654857af61fd6",
       "title": "SonnFPV Race OSD",
       "firmware_version": [
         "4.3",
         "4.4"
       ],
-      "category": "RATES",
+      "category": "OSD",
       "status": "COMMUNITY",
       "keywords": [
         "sonn",
@@ -3758,11 +3758,11 @@
         "race"
       ],
       "author": "SonnFPV (Shaya Sonnenberg)",
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/4.4/other/sonn_FPV_Race_Full_Setup.txt",
-      "hash": "46b20a997a15bcdeceaaff33d3307e130ac30e8ec3a35aeac917ed9c9f078668",
+      "hash": "969d7013c036da50c39d2bb1968b8c84ba5f31e4f6d18819054cf9cc24755b13",
       "title": "SonnFPV Race Full Setup",
       "firmware_version": [
         "4.4"

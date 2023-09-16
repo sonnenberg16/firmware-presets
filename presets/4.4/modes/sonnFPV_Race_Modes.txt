@@ -1,7 +1,7 @@
 #$ TITLE: SonnFPV Race Modes
 #$ FIRMWARE_VERSION: 4.3
 #$ FIRMWARE_VERSION: 4.4
-#$ CATEGORY: RATES
+#$ CATEGORY: MODES
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: sonn, sonnfpv, mode, race
 #$ AUTHOR: SonnFPV (Shaya Sonnenberg)

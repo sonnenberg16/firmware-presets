@@ -1,7 +1,7 @@
 #$ TITLE: SonnFPV Race OSD
 #$ FIRMWARE_VERSION: 4.3
 #$ FIRMWARE_VERSION: 4.4
-#$ CATEGORY: RATES
+#$ CATEGORY: OSD
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: sonn, sonnfpv, osd, race
 #$ AUTHOR: SonnFPV (Shaya Sonnenberg)

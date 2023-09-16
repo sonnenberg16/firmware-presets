@@ -142,3 +142,6 @@ set craft_name = sonnFPV
     set tpa_breakpoint = 1250
 
 #$ OPTION END
+
+set min_check = 1010
+set max_check = 1990
