@@ -3825,8 +3825,8 @@
     },
     {
       "fullPath": "presets/4.4/rates/SonnFPV_Race.txt",
-      "hash": "ed4133f1c7e7f96bf29bbd4925f28f4d9a2402872bfd6e89bc9c507df692c7e3",
-      "title": "SonnFPV",
+      "hash": "4ebcb4186c2e1f43ee97eb376c309df974917fc94719e32a0b4f89982e8ab524",
+      "title": "SonnFPV Race Rates",
       "firmware_version": [
         "4.3",
         "4.4"
